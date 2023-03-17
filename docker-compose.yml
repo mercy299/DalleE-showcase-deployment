@@ -19,10 +19,10 @@ services:
       - mongo
     environment:
       MONGODB_URL: mongodb://root:Pssw0rd1@mongo:27017
-      OPENAI_API_KEY: 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
-      CLOUDINARY_CLOUD_NAME: dall-e-showcase
-      CLOUDINARY_API_KEY: 138197961365755
-      CLOUDINARY_API_SECRET: haIFYRbv0cpiik4_M6o1r58dMt0
+      OPENAI_API_KEY: 
+      CLOUDINARY_CLOUD_NAME: 
+      CLOUDINARY_API_KEY: 
+      CLOUDINARY_API_SECRET: 
   
   dalleclient:
     image: 'dalle-client'
